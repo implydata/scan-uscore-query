@@ -6,6 +6,10 @@
   <artifactId>scan-uscore-query</artifactId>
   <version>0.10.0_4-SNAPSHOT</version>
 
+  <name>${project.groupId}:${project.artifactId}</name>
+  <description>${project.groupId}:${project.artifactId}</description>
+  <url>https://github.com/implydata/scan-uscore-query</url>
+:
   <organization>
     <name>io.imply</name>
     <url>https://github.com/implydata/scan-uscore-query</url>
@@ -14,6 +18,7 @@
   <scm>
     <connection>scm:git:https://github.com/implydata/scan-uscore-query.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/implydata/scan-uscore-query.git</developerConnection>
+    <url>https://github.com/implydata/scan-uscore-query.git</url>
     <tag>HEAD</tag>
   </scm>
 
@@ -144,6 +149,19 @@
             <addMavenDescriptor>false</addMavenDescriptor>
           </archive>
         </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-gpg-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>sign-artifacts</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>sign</goal>
+            </goals>
+          </execution>
+        </executions>
       </plugin>
     </plugins>
   </build>
