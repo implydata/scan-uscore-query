@@ -4,7 +4,7 @@
 
   <groupId>io.imply</groupId>
   <artifactId>scan-uscore-query</artifactId>
-  <version>0.10.0_2-SNAPSHOT</version>
+  <version>0.10.0_2</version>
 
   <organization>
     <name>io.imply</name>
@@ -14,7 +14,7 @@
   <scm>
     <connection>scm:git:https://github.com/implydata/scan-uscore-query.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/implydata/scan-uscore-query.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>scan-uscore-query-0.10.0_2</tag>
   </scm>
 
   <developers>
