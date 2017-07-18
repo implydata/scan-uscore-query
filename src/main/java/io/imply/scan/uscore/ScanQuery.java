@@ -204,9 +204,9 @@ public class ScanQuery extends BaseQuery<ScanResultValue>
 
   /**
    * A Builder for ScanQuery.
-   * <p/>
+   * <p>
    * Required: dataSource(), intervals() must be called before build()
-   * <p/>
+   * <p>
    * Usage example:
    * <pre><code>
    *   ScanQuery query = new ScanQueryBuilder()
