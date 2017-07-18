@@ -1,0 +1,10 @@
+This product contains a modified version of scan-query code from Druid.
+  * LICENSE:
+    * https://github.com/druid-io/druid/blob/master/LICENSE (Apache 2.0)
+  * HOMEPAGE:
+    * http://druid.io/
+  * NOTICE:
+    * Druid - a distributed column store.
+    * Copyright 2012-2016 Metamarkets Group Inc.
+    * Copyright 2015-2016 Yahoo! Inc.
+    * Copyright 2015-2016 Imply Data, Inc.
